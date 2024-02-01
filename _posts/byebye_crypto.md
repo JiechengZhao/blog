@@ -1,6 +1,6 @@
 ---
-title: "Bye Bye DeFi"
-excerpt: "For the past two years, I have been engrossed in developing a DeFi derivative called Poption. Despite my efforts, I've decided to move away from this venture. My confidence in DeFi as a solution to the problems I aimed to solve has diminished. Nevertheless, I believe there's value in sharing the lessons learned from this experience, as we can often gain insights even from endeavors that don't pan out as expected."
+title: "Bye Bye DeFi & Hello World"
+excerpt: "Over the past two years, I've dedicated myself to creating a DeFi derivative known as Poption. Despite my dedication and effort, I've reached a decision to step away from this project. My belief in DeFi as a viable solution for the challenges I sought to address has waned. However, I find it important to share the insights and lessons learned from this endeavor. With this sharing, I aim to close this chapter of my journey and open the door to new adventures and opportunities."
 coverImage: "/assets/blog/byebye_crypto/cover.png"
 date: "2024-01-31"
 author:
@@ -10,7 +10,7 @@ ogImage:
   url: "/assets/blog/byebye_crypto/cover.png"
 ---
 
-For the past two years, I have been engrossed in developing a DeFi derivative called Poption. Despite my efforts, I've decided to move away from this venture. My confidence in DeFi as a solution to the problems I aimed to solve has diminished. Nevertheless, I believe there's value in sharing the lessons learned from this experience, as we can often gain insights even from endeavors that don't pan out as expected.
+Over the past two years, I've dedicated myself to creating a DeFi derivative known as Poption. Despite my dedication and effort, I've reached a decision to step away from this project. My belief in DeFi as a viable solution for the challenges I sought to address has waned. However, I find it important to share the insights and lessons learned from this endeavor. With this sharing, I aim to close this chapter of my journey and open the door to new adventures and opportunities.
 
 ## Identifying Financial Market Challenges
 
@@ -49,6 +49,7 @@ Blockchain technology offers potential solutions for hedging in native markets, 
 
 To enhance safety in the options market, we could minimize trades that carry high risk during rare market events. Typically, selling a call option and a bull spread call (with a high high strick price) (a safer trade with limited loss potential) perform similarly under normal conditions. However, their outcomes diverge significantly during market anomalies, such as sharp price increases. A naked call, where the seller doesn't hold the underlying asset, carries greater risk compared to a bull spread call. By altering the standard practices of traders, particularly market makers, we can foster a more secure trading environment. Shifting the basic trading unit from simple calls or puts to structured strategies like spread calls/puts or butterflies could reduce overall market risk, benefiting nearly all participants by making trading inherently safer.
 
-## Farewell
+## New Journey
 
-In conclusion, my belief that DeFi can provide viable solutions for the secondary market and derivatives has waned. It's time for me to explore new horizons and continue my journey elsewhere. Thus, I bid farewell, ready to embrace the next chapter.
+In conclusion, my belief that DeFi can provide viable solutions for derivatives has waned. Thus, I bid farewell, ready to embrace the next chapter. It's time for me to explore new horizons and continue my journey. The world is so big. There must be place to veiw can change. Let's go. 
+
