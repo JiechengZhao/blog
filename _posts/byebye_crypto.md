@@ -49,7 +49,7 @@ Blockchain technology offers potential solutions for hedging in native markets, 
 
 To enhance safety in the options market, we could minimize trades that carry high risk during rare market events. Typically, selling a call option and a bull spread call (with a high high strick price) (a safer trade with limited loss potential) perform similarly under normal conditions. However, their outcomes diverge significantly during market anomalies, such as sharp price increases. A naked call, where the seller doesn't hold the underlying asset, carries greater risk compared to a bull spread call. By altering the standard practices of traders, particularly market makers, we can foster a more secure trading environment. Shifting the basic trading unit from simple calls or puts to structured strategies like spread calls/puts or butterflies could reduce overall market risk, benefiting nearly all participants by making trading inherently safer.
 
-## New Journey
+## Embarking on a New Chapter
 
-In conclusion, my belief that DeFi can provide viable solutions for derivatives has waned. Thus, I bid farewell, ready to embrace the next chapter. It's time for me to explore new horizons and continue my journey. The world is so big. There must be place to veiw can change. Let's go. 
+In conclusion, my confidence in DeFi as a provider of viable solutions for derivatives has diminished. Consequently, I am saying goodbye, prepared to venture into the next chapter. It's time for me to seek out new horizons and continue my journey. The world is vast, offering endless perspectives waiting to be discovered. Let's set out.
 
