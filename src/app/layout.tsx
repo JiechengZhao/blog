@@ -2,6 +2,8 @@ import Footer from "@/app/_components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
+ 
 
 import "./globals.css";
 
@@ -59,6 +61,7 @@ export default function RootLayout({
         <div className="min-h-screen">{children}</div>
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-FB51VW3T7R" />
     </html>
   );
 }
