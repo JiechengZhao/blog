@@ -60,6 +60,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="min-h-screen">{children}</div>
         <Footer />
+        <SpeedInsights />
       </body>
       <Script async src="https://eu.umami.is/script.js" data-website-id="229dbb85-c081-4ca0-a01a-84a060dc5e6b"/>
     </html>
