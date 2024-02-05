@@ -50,7 +50,7 @@ export function generateMetadata({ params }: Params): Metadata {
     return notFound();
   }
 
-  const title = `${post.title}`;
+  const title = `${post.title} | Hydrogenbear's Fantasy Logbook.`;
 
   return {
     openGraph: {

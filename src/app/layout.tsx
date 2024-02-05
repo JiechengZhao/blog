@@ -3,6 +3,7 @@ import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from 'next/script'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./globals.css";
 
