@@ -1,8 +1,8 @@
 ---
 title: "The Truth and the Choise"
-excerpt: ""
+excerpt: "As I've decided to exit the cryptocurrency industry, I've found myself in a challenging job situation. Then I have to make some choice."
 coverImage: "/assets/blog/byebye_crypto/cover.png"
-date: "2024-01-31"
+date: "2024-02-05"
 author:
   name: Hydrogenbear
   picture: "/assets/blog/authors/hydrogenbear.png"
@@ -23,3 +23,11 @@ On the contrary, pursuing a Ph.D. entails dedicating several years to a research
 So let's view the oppenity one by one carefully. And see which way to choose and make a clear decision.
 
 Option 1: Start a new business. The concept revolves around assisting small businesses on the internet in utilizing advanced analytics techniques. While many small businesses use Google Analytics for website visitor analysis, its capabilities are somewhat limited. Larger companies often employ AB testing or reinforcement learning for more in-depth insights. I believe there's potential to fill this gap and help small businesses benefit from such techniques. Notably, Umami, a platform similar to Google Analytics, has garnered 4.6 million downloads from GitHub. Although Umami initially lacked AB testing support, its event system now enables this feature. This presents a promising opportunity to integrate AB testing into Umami and offer enhanced analytics solutions to small businesses.
+
+Option 2: Involves pursuing a joint research direction in symbolic math and machine learning in a university. While this is a feasible option, I must admit that I don't consider myself exceptionally talented in symbolic math. Additionally, it seems that this field is highly competitive and extensively explored.
+
+I personally lean towards Option 1. Upon my research, I've found a lack of robust open-source AB test solutions on GitHub. Considering its significance and my own expertise in this area, I believe it could be a critical venture.
+
+For Option 2. I really like the Leanprover community. The people in the community are great and their work and goal is also great. but right now, I'm not able to use my main skills effectively in it. So, I have to think about other options.
+
+So let me begin my jouney.

@@ -2,8 +2,7 @@ import Footer from "@/app/_components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { GoogleAnalytics } from '@next/third-parties/google'
- 
+import Script from 'next/script'
 
 import "./globals.css";
 
@@ -61,7 +60,7 @@ export default function RootLayout({
         <div className="min-h-screen">{children}</div>
         <Footer />
       </body>
-      <GoogleAnalytics gaId="G-FB51VW3T7R" />
+      <Script async src="https://eu.umami.is/script.js" data-website-id="229dbb85-c081-4ca0-a01a-84a060dc5e6b"/>
     </html>
   );
 }
