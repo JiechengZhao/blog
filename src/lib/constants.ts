@@ -1,3 +1,2 @@
-export const CMS_NAME = "Markdown";
 export const HOME_OG_IMAGE_URL =
-  "/favicon/favicon-raw.png";
+  "https://blog.poption.org/favicon/favicon-800x800.png";

@@ -6,8 +6,6 @@ date: "2024-01-31"
 author:
   name: Hydrogenbear
   picture: "/assets/blog/authors/hydrogenbear.png"
-ogImage:
-  url: "/assets/blog/byebye_crypto/cover.png"
 ---
 
 Over the past two years, I've dedicated myself to creating a DeFi derivative known as Poption. Despite my dedication and effort, I've reached a decision to step away from this project. My belief in DeFi as a viable solution for the challenges I sought to address has waned. However, I find it important to share the insights and lessons learned from this endeavor. With this sharing, I aim to close this chapter of my journey and open the door to new adventures and opportunities.

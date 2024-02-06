@@ -1,5 +1,7 @@
 import Footer from "@/app/_components/footer";
 import type { Metadata } from "next";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
+
 import { Inter } from "next/font/google";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -12,6 +14,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://blog.poption.org'),
   title: `Hydrogenbear's Fantasy Logbook`,
   description: `Journeys in Creativity: Exploring New Ideas in Technology and Fantasy`,
+  openGraph: {
+    title: `Hydrogenbear's Fantasy Logbook`,
+    images: [HOME_OG_IMAGE_URL]
+  }
 };
 
 export default function RootLayout({
