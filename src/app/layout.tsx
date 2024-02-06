@@ -1,20 +1,17 @@
 import Footer from "@/app/_components/footer";
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Script from 'next/script'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://blog.poption.org'),
   title: `Hydrogenbear's Fantasy Logbook`,
   description: `Journeys in Creativity: Exploring New Ideas in Technology and Fantasy`,
-  openGraph: {
-    images: [HOME_OG_IMAGE_URL],
-  },
 };
 
 export default function RootLayout({
@@ -62,7 +59,11 @@ export default function RootLayout({
         <Footer />
         <SpeedInsights />
       </body>
-      <Script async src="https://eu.umami.is/script.js" data-website-id="229dbb85-c081-4ca0-a01a-84a060dc5e6b"/>
+      <Script
+        async
+        src="https://eu.umami.is/script.js"
+        data-website-id="229dbb85-c081-4ca0-a01a-84a060dc5e6b"
+      />
     </html>
   );
 }

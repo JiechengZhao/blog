@@ -3,6 +3,12 @@ import { HeroPost } from "@/app/_components/hero-post";
 import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "../lib/api";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: `Hydrogenbear's Fantasy Logbook`,
+  description: `Journeys in Creativity: Exploring New Ideas in Technology and Fantasy`,
+};
 
 export default function Index() {
   const allPosts = getAllPosts();

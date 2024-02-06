@@ -53,9 +53,9 @@ export function generateMetadata({ params }: Params): Metadata {
   const title = `${post.title} | Hydrogenbear's Fantasy Logbook.`;
 
   return {
+    title,
     openGraph: {
       title,
-      images: [post.ogImage.url],
     },
   };
 }
