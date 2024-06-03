@@ -13,38 +13,19 @@ type Props = {
   slug: string;
 };
 
-export function PostPreview({
-  title,
-  coverImage,
-  date,
-  excerpt,
-  author,
-  slug,
-}: Props) {
-  console.log("coverImage", coverImage)
+export function PostPreview({ title, date, slug }: Props) {
   return (
-    <div>
-      <div className="mb-5">
-        {coverImage ? (
-          <CoverImage slug={slug} title={title} src={coverImage} />
-        ) : (
-          <></>
-        )}
-      </div>
-      <h3 className="text-3xl mb-3 leading-snug">
+    <div className="flex flex-col md:flex-row items-center md:justify-between p-4 bg-white rounded shadow">
+      <div className="flex flex-col text-center md:text-left">
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
           className="hover:underline"
         >
-          {title}
+          <h3 className="text-2xl font-bold">{title}</h3>
         </Link>
-      </h3>
-      <div className="text-lg mb-4">
-        <DateFormatter dateString={date} />
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} />
+      <div className="text-gray-500">{date}</div>
     </div>
   );
 }
