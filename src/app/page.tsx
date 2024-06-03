@@ -18,16 +18,11 @@ export const metadata: Metadata = {
 
 export default function Index() {
   const allPosts = getAllPosts();
-
-  const heroPost = allPosts[0];
-
-  const morePosts = allPosts.slice(1);
-
   return (
     <main>
       <Container>
         <Intro />
-        <MoreStories posts={morePosts} />
+        <MoreStories posts={allPosts} />
       </Container>
     </main>
   );
