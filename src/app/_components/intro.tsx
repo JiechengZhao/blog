@@ -2,7 +2,7 @@ export function Intro() {
   return (
     <section
       className="flex flex-col items-center justify-center text-center mt-16 mb-16 bg-cover bg-center relative rounded-lg"
-      style={{ backgroundImage: "url(/bg2.png)" }}
+      style={{ backgroundImage: "url(/bg.jpg)" }}
     >
       <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-r from-transparent via-black/70 to-transparent overflow-hidden"></div>
       <div className="relative z-10 p-5">
